@@ -35,7 +35,8 @@
     "test": "ng test --code-coverage --reporters=teamcity,coverage-istanbul",
     "test-lib": "ng test ngx-audio-player --code-coverage --reporters=teamcity,coverage-istanbul",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ngcc"
   },
   "private": true,
   "dependencies": {
